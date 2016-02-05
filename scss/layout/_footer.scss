@@ -1,0 +1,21 @@
+.main-footer {
+  @extend %space-between-flex;
+  border-top: 1px solid $color-darktext;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  display: none;
+  @include tablet {
+    display: flex;
+    margin: 18px 0;
+    a {
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px 15px;
+      margin: 5px 0;
+    }
+  }
+}

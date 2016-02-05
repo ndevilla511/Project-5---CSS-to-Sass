@@ -1,0 +1,43 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-body;
+  color: $color-lighttext;
+  text-align: center;
+  font-family: $stack-verdana;
+  margin-top: 116px;
+  @include tablet {
+    margin-top: 162px;
+  }
+  @include desktop {
+    margin-top: 116px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  color: $color-darktext;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: $br;
+}
+
+p {
+  line-height: 1.6;
+}

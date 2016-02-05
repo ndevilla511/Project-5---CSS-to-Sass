@@ -1,0 +1,28 @@
+
+//Descriptive color variables
+$white: #fff;
+$black: #000;
+$wildsand: #f5f5f5;
+$scorpion: #5a5a5a;
+$corduroy: #5e5e5e;
+$alabaster: #fafafa;
+
+//Functional color variables
+$color-body: $alabaster;
+$color-lighttext: $corduroy;
+$color-darktext: $scorpion;
+$color-header: $wildsand;
+$color-shadow: rgba($black, 0.8);
+
+//Font stack variables
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+$stack-verdana: Verdana, $stack-sans-serif;
+
+//Font size
+
+$content-text: 1.2em;
+$header-text: 1.4em;
+
+//border radius
+
+$br: 2.5%;

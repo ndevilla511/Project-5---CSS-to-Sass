@@ -1,0 +1,49 @@
+.main-header {
+    padding: 1em 1em;
+    background-color: $color-header;
+    box-shadow: 0 1px 4px $color-shadow;
+    @extend %fixed-top;
+    min-width: 478px;
+    width: 100%;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
+    @include desktop {
+      flex-direction: row;
+    }
+}
+
+
+.name {
+    flex: 1;
+    margin: 0;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    @include tablet {
+    flex: 0 1 auto;
+    }
+    @include desktop {
+      margin-right: auto;
+    }
+}
+
+.main-nav {
+    display: none;
+  a {
+    background-color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+  @include tablet{
+    display: flex;
+    justify-content: center;
+    a {
+    background-color: $color-header;
+    }
+  }
+}

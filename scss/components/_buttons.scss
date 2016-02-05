@@ -1,0 +1,14 @@
+.navicon svg {
+  margin-top: 25px;
+}
+
+.navicon {
+  width: 86px;
+  height: 86px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include tablet {
+    display: none;
+  }
+}

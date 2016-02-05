@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Layout Project</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/picturefill.min.js" async></script>
+</head>
+<body>
+
+    <header class="main-header" id="top">
+        <div class="navicon">
+        <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+        </svg>
+        </div>
+        <h1 class="name">Napoleon DeVilla</h1>
+        <ul class="main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="banner">
+        <img sizes="(max-width: 768px) 60vw,
+                    (max-width: 1024px) 40vw,
+                    (min-width: 1025px) 40vw"
+             srcset="img/smallprofilepic.png 225w,
+                    img/mediumprofilepic.png 800w,
+                    img/largeprofilepic.png 1119w"
+             src="img/smallprofilepic.png" alt="My Profile Photo" class="profile-pic"/>
+        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </div>
+
+    <div class="portfolio container" id="portfolio">
+        <h4>PORTFOLIO</h4>
+        <div class="portfolio-entry">
+            <img src="img/portfolio-1.png" alt="Image of Marketing Page">
+            <h3>Marketing Page</h3>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-2.png" alt="Image of Search Page">
+            <h3>Search Page</h3>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-3.png" alt="Image of Travel App">
+            <h3>Travel App</h3>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-6.png" alt="Image of Map of Favorite Spots">
+            <h3>Map of Favorite Spots</h3>
+            <p>This project using mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-5.png" alt="Image of Photo Gallery">
+            <h3>Photo Gallery</h3>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-4.png" alt="Image of Calculator">
+            <h3>Calculator</h3>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-10.png" alt="Image of Audio Player">
+            <h3>Audio Player</h3>
+            <p>This project lets the user browse through their favorite music and find new artists and songs.</p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-8.png" alt="Image of Video Player">
+            <h3>Video Player</h3>
+            <p>This project compiles the latest videos into one place based on what the user watches online. </p>
+        </div>
+
+        <div class="portfolio-entry">
+            <img src="img/portfolio-14.png" alt="Image of Reminder">
+            <h3>Reminder</h3>
+            <p>This project lets the user write reminders or notes on sticky notes associated with a webpage.</p>
+        </div>
+
+    </div>
+
+
+    <div class="contact container" id="contact">
+        <h4>CONTACT</h4>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone &nbsp; <a href="tel:111-555-1234"><b>+1 (111) 555-1234</b></a></p>
+        <p>Email &nbsp; <a href="mailto:email@yoursite.com"><b>email@yoursite.com</b></a></p>
+    </div>
+
+    <footer class="main-footer">
+            <h4 class="footer-name">Napoleon DeVilla</h4>
+            <h4 class="back"><a href="#top">BACK TO TOP</a></h4>
+            <ul class="footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </footer>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.animate-colors-min.js"></script>
+    <script src="js/mobile-menu.js"></script>
+</body>
+</html>

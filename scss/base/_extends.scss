@@ -1,0 +1,15 @@
+
+%space-between-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+%container-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+%fixed-top {
+  position: fixed;
+  top: 0;
+}

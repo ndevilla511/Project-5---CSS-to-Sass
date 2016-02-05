@@ -1,0 +1,16 @@
+.side-menu {
+  background: $scorpion;
+  width: 220px;
+  height: 100%;
+  @extend %fixed-top;
+  left: -220px;
+  ul li {
+    display: inline-block;
+    width: 90%;
+    margin-top: 20px;
+  }
+  a {
+    background-color: $scorpion;
+    color: $wildsand;
+  }
+}

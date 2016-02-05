@@ -1,0 +1,31 @@
+.portfolio h4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: $header-text;
+}
+
+.profile-pic {
+  width: 60%;
+  margin: 0 auto;
+  @include tablet {
+    order: 1;
+    width: 40%;
+    margin-left: 1em;
+  }
+  @include desktop {
+    margin-left: 2em;
+  }
+}
+
+
+.contact h4 {
+  font-size: $header-text;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.back {
+  @include tablet {
+    display: none;
+  }
+}
